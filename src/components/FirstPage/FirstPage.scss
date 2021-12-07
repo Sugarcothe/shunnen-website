@@ -1,0 +1,19 @@
+@import '../../global.scss';
+
+.section {
+    display: flex;
+    flex-direction: row;
+
+    .left {
+       
+        img {
+            margin-top: 5rem;
+            margin-left: 4rem;
+            max-width: 650px;
+        }
+    }
+    
+    .right {
+
+    }
+}
