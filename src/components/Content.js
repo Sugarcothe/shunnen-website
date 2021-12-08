@@ -1,6 +1,13 @@
 
 const title = "Shunem Home Ideas";
 
+const navbar = {
+    nav1: "About",
+    nav2: "Services",
+    nav3: "Designs",
+    nav4: "Appointment"
+}
+
 const header = "Interior & Exterior Decoration";
 
 const landingimage = "assets/shunnen.jpeg";
@@ -13,6 +20,7 @@ const landingtext = {
 
 export {
     title,
+    navbar,
     header,
     landingimage,
     landingtext,
