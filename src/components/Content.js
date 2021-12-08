@@ -5,7 +5,7 @@ const navbar = {
     nav1: "About",
     nav2: "Services",
     nav3: "Designs",
-    nav4: "Appointment"
+    nav4: "Book Appointment"
 }
 
 const header = "Interior & Exterior Decoration";

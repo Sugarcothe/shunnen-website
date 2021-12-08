@@ -10,12 +10,15 @@ function Navbar() {
         <div className='navbar'>
             <nav>
                 <div className='logo'>{title}</div>
-                <ul>
-                    <li><a>{navbar.nav1}</a></li>
-                    <li><a>{navbar.nav2}</a></li>
-                    <li><a>{navbar.nav3}</a></li>
-                    <li><a>{navbar.nav4}</a></li>
+                <ul className='ulist'>
+                    <li className='list'><a href='#'>{navbar.nav1}</a></li>
+                    <li className='list'><a href='#'>{navbar.nav2}</a></li>
+                    <li className='list'><a href='#'>{navbar.nav3}</a></li>
                 </ul>
+                <button 
+                    className='btn'>
+                    {navbar.nav4}
+                </button>
             </nav>
         </div>
     )
