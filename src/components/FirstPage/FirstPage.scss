@@ -1,19 +1,47 @@
 @import '../../global.scss';
 
+.header {
+    display: flex;
+    justify-content: center;
+    color: $main-color;
+}
+
 .section {
     display: flex;
     flex-direction: row;
 
+
     .left {
        
         img {
-            margin-top: 5rem;
+            margin-top: 2rem;
             margin-left: 4rem;
             max-width: 650px;
         }
     }
     
     .right {
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+        background-color: $light-color;
+        min-width: 800px;
 
+        .firsttext{
+            margin: 5rem;
+            max-width: 400px;
+            justify-content: center;
+            
+            .big-text {
+                font-family: 'Satisfy', cursive;
+                margin-bottom: 1rem;
+                font-size: 2rem;
+                color: $main-color;
+            }
+
+            .small-text {
+                font-size: 1.5rem;
+                justify-self: center;
+            }
+        }
     }
 }

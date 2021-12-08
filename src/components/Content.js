@@ -1,15 +1,19 @@
+
 const title = "Shunem Home Ideas";
 
-const landingimage = "assets/shunnen.jpeg"
+const header = "Interior & Exterior Decoration";
+
+const landingimage = "assets/shunnen.jpeg";
 
 const landingtext = {
-    firsttext: "INTERIORS THAT REFLECT YOUR STYLE",
+    firsttext: "Interiors That Reflects Your Style",
     secondtext: "At Shunem Home Ideas, we give you the best designs with professionalism and at  pocket-frienly prices too"
 }
 
 
 export {
     title,
+    header,
     landingimage,
     landingtext,
 }
