@@ -1,0 +1,27 @@
+@import '../../global.scss';
+
+.testimonial {
+    border: 1px solid $main-color;
+    border-radius: 5px;
+    background-color: $main-color;
+    padding: 3rem;
+    max-width: 600px;
+    justify-content: center;
+    font-style: italic;
+
+    .message {
+        font-size: 1.5rem;
+        color: $light-color;
+    }
+    .name {
+        margin-top: 2rem;
+        color: white;
+      
+
+    }
+    .state {
+        display: flex;
+        color: white;
+      
+    }
+}

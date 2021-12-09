@@ -103,5 +103,14 @@
             }
         }
     }
+
+    .thirdPage {
+        display: flex;
+        justify-content: center;
+        background-color: $sec-color;
+        padding: 3rem;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
