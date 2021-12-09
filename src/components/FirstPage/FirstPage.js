@@ -6,6 +6,7 @@ import {
 
 import {
     header,
+    imago,
     landingimage, 
     landingtext 
 } from '../Content' 
@@ -40,13 +41,16 @@ function FirstPage() {
             <div className='secondPage'>
                 <div className='section'>
                     <div className='col-1'>
-
+                        <img src={imago.img8} alt="image"/>
+                        <p>Interior/Exterior design services and Space Management </p>
                     </div>
                     <div className='col-1'>
-
+                        <img src={imago.img12} alt="image"/>
+                        <p>Modeling & Remodeling your space at any given time</p>
                     </div>
                     <div className='col-1'>
-                        
+                        <img src={imago.img16} alt="image"/>
+                        <p>We also operate an Interior and Exterior Decor Academy</p>
                     </div>
                 </div>
             </div>
