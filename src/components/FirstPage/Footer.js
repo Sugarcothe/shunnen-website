@@ -1,5 +1,6 @@
 import React from 'react'
-import Footer from './Footer.scss'
+import './Footer.scss';
+import { Link } from 'react-router-dom';
 import { 
     imago,
     title,
@@ -57,10 +58,12 @@ function Rooter() {
                         </div>
                     </div>
 
-                    <button 
-                        className='btn'>
-                        {navbar.nav4}
-                    </button>
+                    <Link to="/Appointment">
+                        <button
+                            className='btn'> 
+                            {navbar.nav4}
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>

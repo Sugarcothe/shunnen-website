@@ -2,7 +2,7 @@ import React from 'react';
 import '../FirstPage/FirstPage.scss';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
+import { Link } from 'react-router-dom';
 import {
     navbar
 } from '../Content'
@@ -34,10 +34,12 @@ function FirstPage() {
                             <h2 className='big-text'>{landingtext.firsttext}</h2>
                             <p5 className='small-text'>{landingtext.secondtext}</p5>
                             <div>
-                                <button 
-                                    className='btn'>
-                                    {navbar.nav4}
-                                </button>
+                                <Link to="/Appointment">
+                                    <button
+                                        className='btn'> 
+                                        {navbar.nav4}
+                                    </button>
+                                </Link>
                             </div>
                         </div>
                         

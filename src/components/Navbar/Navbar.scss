@@ -12,12 +12,14 @@
         align-items: center;
         background-color: $main-color;
 
-        .logo {
-            margin-left: 3rem;
-            font-size: 2rem;
-            color: $light-color;
-            background-color: $main-color;
-        }
+
+            .logo {
+                margin-left: 3rem;
+                font-size: 2rem;
+                color: $light-color;
+                background-color: $main-color;
+                text-decoration: none;
+            }
 
         .ulist {
             display: flex;
@@ -56,6 +58,11 @@
             font-weight: bold;
             color: $main-color;
             transition: 1.2s;
+            text-decoration: none;
+
+            Link {
+                text-decoration: none;
+            }
         }
         .btn:hover {
             color: $light-color;

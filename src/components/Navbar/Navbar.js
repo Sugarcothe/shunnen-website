@@ -10,22 +10,22 @@ function Navbar() {
     return (
         <div className='navbar'>
             <nav>
-                <div className='logo'>
-                    <Link to='/'>
+                <Link to='/'>
+                    <div className='logo'>
                         {title}
-                    </Link>
-                </div>
+                    </div>
+                </Link>
                 <ul className='ulist'>
                     <li className='list'><Link to='/About'>{navbar.nav1}</Link></li>
                     <li className='list'><Link to='/Services'>{navbar.nav2}</Link></li>
                     <li className='list'><Link to='/Gallery'>{navbar.nav3}</Link></li>
                 </ul>
-                <button 
-                    className='btn'> 
-                    <Link to="/Appointment">
+                <Link to="/Appointment">
+                    <button
+                        className='btn'> 
                         {navbar.nav4}
-                    </Link>
-                </button>
+                    </button>
+                </Link>
             </nav>
         </div>
     )
