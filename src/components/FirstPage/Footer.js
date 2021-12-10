@@ -3,7 +3,8 @@ import Footer from './Footer.scss'
 import { 
     imago,
     title,
-    socials
+    socials,
+    navbar
 } from '../Content'
 
 function Rooter() {
@@ -47,14 +48,19 @@ function Rooter() {
                     <p><i class="fas fa-envelope-square"></i>: {socials.emails}</p>
                     
                     <div className='socials'>
-                        <h4>Socials</h4>
+                        
                         <div className='icons'>
-                            <div className='whatsapp'><a href={socials.whatsapp}><i class="fab fa-whatsapp"></i></a></div>
-                            <div className='facebook'><a href={socials.facebook}><i class="fab fa-facebook-square"></i></a></div>
-                            <div className='instagram'><a href={socials.instagram}><i class="fab fa-instagram"></i></a></div>
-                            <div className='twitter'><a href={socials.twitter}><i class="fab fa-whatsapp"></i></a></div>
+                            <div className='whatsapp'><a href={socials.whatsapp} target="_blank"><i class="fab fa-whatsapp"></i></a></div>
+                            <div className='facebook'><a href={socials.facebook} target="_blank"><i class="fab fa-facebook-square"></i></a></div>
+                            <div className='instagram'><a href={socials.instagram} target="_blank"><i class="fab fa-instagram"></i></a></div>
+                            <div className='twitter'><a href={socials.twitter} target="_blank"><i class="fab fa-twitter"></i></a></div>
                         </div>
                     </div>
+
+                    <button 
+                        className='btn'>
+                        {navbar.nav4}
+                    </button>
                 </div>
             </div>
         </div>

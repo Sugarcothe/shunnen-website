@@ -4,7 +4,7 @@ const title = "Shunem Home Ideas";
 const navbar = {
     nav1: "About",
     nav2: "Services",
-    nav3: "Designs",
+    nav3: "Gallery",
     nav4: "Book Appointment"
 }
 
@@ -56,7 +56,7 @@ const socials = {
     twitter: "https://twitter.com/shunemhome",
     instagram: "https://www.instagram.com/shunemhome/",
     facebook: "https://web.facebook.com/shunemhomeideas",
-    whatsapp: "https://api.whatsapp.com/send?phone=2348160874951",
+    whatsapp: "https://api.whatsapp.com/send?phone=2347064513228",
     phone: "+2347064513228",
     emails: "shunemhomes@yahoo.com"
 }
