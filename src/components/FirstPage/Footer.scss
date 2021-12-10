@@ -1,24 +1,22 @@
 @import '../../global.scss';
 
 .footer {
-    padding: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     background-color: $main-color;
 
-    
     .section {
-        display: flex;
-        flex-direction: column;
-       
+       display: flex;
+       justify-content: space-evenly;
+
         .col1 {
             display: flex;
-            justify-content: center;
-            display: column;
+            flex-direction: column;
             align-items: center;
-            text-align: center;
+            justify-content: center;
             
             .logo {
                 
-
                 img {
                     max-width: 100px;
                 }
@@ -27,6 +25,42 @@
             .text {
                 font-size: 20px;
                 font-weight: bold;
+                color: $light-color;
+            }
+            .address {
+                display: flex;
+                color: $sec-color;
+                align-self: center;
+                justify-content: center;
+                margin-top: 1rem;
+
+                i {
+                    font-size: 2rem;
+                    margin: 1rem;
+                    color: $light-color;
+                }
+            }
+        }
+
+        .col2 {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: start;
+            margin-left: 2rem;
+
+            p {
+                font-size: 15px;
+                font-weight: bold;
+                color: $light-color;
+            }
+
+        }
+        .col3 {
+            color: $sec-color;
+            font-size: 1.4rem;
+
+            i {
                 color: $light-color;
             }
         }

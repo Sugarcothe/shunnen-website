@@ -52,12 +52,21 @@ const imago = {
     // img33: "sh1.jpeg",
 }
 
+const socials = {
+    twitter: "https://twitter.com/shunemhome",
+    instagram: "https://www.instagram.com/shunemhome/",
+    facebook: "https://web.facebook.com/shunemhomeideas",
+    whatsapp: "https://api.whatsapp.com/send?phone=2348160874951",
+    phone: "+2347064513228",
+    emails: "shunemhomes@yahoo.com"
+}
 
 
 
 export {
     title,
     imago,
+    socials,
     navbar,
     header,
     landingimage,
