@@ -1,0 +1,34 @@
+@import '../../global.scss';
+
+.footer {
+    padding: 2rem;
+    background-color: $main-color;
+
+    
+    .section {
+        display: flex;
+        flex-direction: column;
+       
+        .col1 {
+            display: flex;
+            justify-content: center;
+            display: column;
+            align-items: center;
+            text-align: center;
+            
+            .logo {
+                
+
+                img {
+                    max-width: 100px;
+                }
+            }
+
+            .text {
+                font-size: 20px;
+                font-weight: bold;
+                color: $light-color;
+            }
+        }
+    }
+}

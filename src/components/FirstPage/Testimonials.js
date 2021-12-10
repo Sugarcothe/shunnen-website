@@ -3,16 +3,19 @@ import Slider from "react-slick";
 import '../FirstPage/Testimonials.scss'
 
 function Testimonials() {
+
     var settings = {
-        dots: true,
+        fade: true,
         infinite: true,
-        speed: 500,
+        autoplay: true,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        autoplaySpeed: 3500,
       };
 
     return (
-        <div>
+        
+        <div className='test'>
         <Slider {...settings}>
             <div className='testimonial'>
                 <p className='message'>"Shunnen Home Ideas pays close attention to details, bringing quality decor items right to your door"</p>

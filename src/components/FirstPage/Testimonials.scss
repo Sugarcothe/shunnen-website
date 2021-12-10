@@ -1,27 +1,37 @@
 @import '../../global.scss';
 
-.testimonial {
-    border: 1px solid $main-color;
-    border-radius: 5px;
-    background-color: $main-color;
-    padding: 3rem;
-    max-width: 600px;
-    justify-content: center;
-    font-style: italic;
+.test {
+   align-self: center;
+   max-width: 500px;
 
-    .message {
-        font-size: 1.5rem;
-        color: $light-color;
-    }
-    .name {
-        margin-top: 2rem;
-        color: white;
-      
+    .testimonial {
+        border: 1px solid $main-color;
+        border-radius: 5px;
+        background-color: $main-color;
+        margin: 3rem;
+        justify-content: center;
+        padding: 2rem;
+        max-width: 600px;
+        max-height: 290px;
+        min-height: 290px;
+        align-self: center;
+        font-style: italic;
 
-    }
-    .state {
-        display: flex;
-        color: white;
-      
+        .message {
+            font-size: 15px;
+            color: $light-color;
+            margin: 2rem;
+        }
+        .name {
+            margin-top: 1rem;
+            color: white;
+        
+
+        }
+        .state {
+            display: flex;
+            color: white;
+        
+        }
     }
 }

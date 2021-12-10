@@ -37,7 +37,7 @@ const imago = {
     img17: "assets/imago5.jpg",
     img19: "assets/imago6.jpg",
     img20: "assets/imago7.jpg",
-    img21: "imago8.jpg",
+    img21: "assets/imago8.jpg",
     img22: "assets/img1.png",
     img23: "assets/img2.jpg",
     img24: "assets/img3.jpg",

@@ -14,6 +14,7 @@ import {
     landingtext 
 } from '../Content' 
 import Testimonials from './Testimonials';
+import Rooter from './Footer';
 
 function FirstPage() {
     
@@ -26,7 +27,7 @@ function FirstPage() {
                 </div>
                 <div className='section'>
                     <div className='left'>
-                        <img src={landingimage} alt='landing img'/>
+                        <img src={landingimage} alt='landing'/>
                     </div>
                     <div className='right'>
                         <div className='firsttext'>
@@ -48,22 +49,27 @@ function FirstPage() {
 
                 <div className='section'>
                     <div className='col-1'>
-                        <img src={imago.img8} alt="image"/>
+                        <img src={imago.img8} alt="shunnen"/>
                         <p>Interior/Exterior design services and Space Management </p>
                     </div>
                     <div className='col-1'>
-                        <img src={imago.img16} alt="image"/>
+                        <img src={imago.img16} alt="shunnen"/>
                         <p>We also operate an Interior and Exterior Decor Academy</p>
                     </div>
                     <div className='col-1'>
-                        <img src={imago.img12} alt="image"/>
+                        <img src={imago.img12} alt="shunnen"/>
                         <p>Modeling & Remodeling your space at any given time</p>
                     </div>
                    
                 </div>
             </div>
-
-            <Testimonials/>
+            
+            <div className='thirdPage'>
+                <Testimonials/>
+                <img src={imago.img22} alt="this"/>
+            </div>
+            
+            <Rooter/>
         </div>
     )
 }
