@@ -1,15 +1,33 @@
 import './App.css';
-import FirstPage from './components/FirstPage/FirstPage';
 import Navbar from './components/Navbar/Navbar';
+import Appointment from './components/Appointment/Appointment';
+import Gallery from './components/Gallery/Gallery';
+import Home from './components/FirstPage/FirstPage';
+import Services from './components/Services/Services';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 
 
 function App() {
-  return (
-    <div className="App">
-      <Navbar/>
-       <FirstPage/>
-    </div>
+  return (    
+      <Router>
+        <Navbar/>
+            <div className="App">
+              <Routes>
+                <Route path="/" element={<Home/>}/>
+                  <Route path="/Appointment" element={<Appointment/>}/>
+                  <Route path="/Services" element={<Services/>}/>
+                  <Route path="/Gallery" element={<Gallery/>}/>
+                  <Route path="/Services" element={<Services/>}/>
+                </Routes> 
+            </div>
+      </Router>
+       
+    
   );
 }
 
