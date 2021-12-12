@@ -43,8 +43,8 @@ const imago = {
     img24: "assets/img3.jpg",
     img25: "assets/img4.jpg",
     img26: "assets/logo.png",
-    img27: "assets/motion1.gif"
-    // img27: "sh1.jpeg",
+    img27: "assets/motion1.gif",
+    img28: "assets/imago10.jpg",
     // img28: "sh1.jpeg",
     // img29: "sh1.jpeg",
     // img30: "sh1.jpeg",
