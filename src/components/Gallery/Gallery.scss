@@ -3,7 +3,7 @@
 body {
 
     .gallery {
-        background-color: $main-color;
+        background-color: $light-color;
     
         .section {
            padding: 3rem;
@@ -15,9 +15,10 @@ body {
                 justify-content: center;
 
                 img {
-                    width: auto;
+                    max-width: 600px;
+                    height: auto;
                     margin: 0.41rem;
-                    height: 350px;
+                    
                 }
             }
         }
