@@ -1,0 +1,18 @@
+@import '../../global.scss';
+
+body {
+
+    .gallery {
+    
+        .section {
+            margin: 2rem;
+    
+            .col {
+                
+                img {
+                    max-width: 500px;
+                }
+            }
+        }
+    }
+}
