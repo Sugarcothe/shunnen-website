@@ -3,14 +3,21 @@
 body {
 
     .gallery {
+        background-color: $main-color;
     
         .section {
-            margin: 2rem;
-    
+           padding: 3rem;
+
             .col {
-                
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+
                 img {
-                    max-width: 500px;
+                    width: auto;
+                    margin: 0.41rem;
+                    height: 350px;
                 }
             }
         }
