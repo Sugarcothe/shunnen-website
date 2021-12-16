@@ -3,12 +3,11 @@ import '../FirstPage/FirstPage.scss';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from 'react-router-dom';
-import {
-    navbar
-} from '../Content'
+import ClassesYoutube from '../FirstPage/FirstYoutube';
 
 import {
     header,
+    navbar,
     imago,
     landingimage, 
     landingtext 
@@ -16,7 +15,11 @@ import {
 import Testimonials from './Testimonials';
 
 function FirstPage() {
-    
+    const yvideo = [
+        {
+          id:"3PJSd7ospBw"
+        },
+    ]
 
     return (
         <div className='main'>
@@ -25,9 +28,13 @@ function FirstPage() {
                     <h1>{header}</h1>
                 </div>
                 <div className='section'>
-                    <div className='left'>
-                        <img src={landingimage} alt='landing'/>
+                    <div className='youtube'>
+                        {yvideo.map((d) => (
+                            <ClassesYoutube videoId={d.id} /> 
+                        
+                        ))}
                     </div>
+                    
                     <div className='right'>
                         <div className='firsttext'>
                             <h2 className='big-text'>{landingtext.firsttext}</h2>

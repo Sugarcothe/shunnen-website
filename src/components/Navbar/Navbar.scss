@@ -20,7 +20,8 @@
 
                 img {
                     width: 70px;
-                    padding: 3px;
+                    margin: 5px;
+                    margin-right: 14rem;
                 }
                
             }
@@ -45,7 +46,6 @@
                 a {
                     display: flex;
                     text-decoration: none;
-                    width: 30%;
                     background-color: $sec-color;
                     color: $main-color;
                     font-weight: bold;
