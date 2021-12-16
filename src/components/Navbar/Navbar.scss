@@ -3,22 +3,26 @@
 .navbar {
     margin: 0;
     box-sizing: border-box;
-    background-color: $main-color;
+    background-color: $sec-color;
+    position: fixed;
+    top: 0;
+    width: 100%;
 
     nav {
         display: flex;
         justify-content: space-around;
         min-height: 10vh;
         align-items: center;
-        background-color: $main-color;
+        background-color: $sec-color;
 
 
             .logo {
-                margin-left: 3rem;
-                font-size: 2rem;
-                color: $light-color;
-                background-color: $main-color;
-                text-decoration: none;
+
+                img {
+                    width: 70px;
+                    padding: 3px;
+                }
+               
             }
 
         .ulist {
@@ -27,14 +31,14 @@
             justify-content: space-between;
             width: 30%;
             margin-right: 3px;
-            background-color: $main-color;
+            background-color: $sec-color;
 
             .list {
                 display: flex;
                 list-style-type: none;
                 justify-content: space-around;
-                background-color: $main-color;
-                color: $light-color;
+                background-color: $sec-color;
+                color: $main-color;
                 transition: 1s;
                 
 
@@ -42,8 +46,8 @@
                     display: flex;
                     text-decoration: none;
                     width: 30%;
-                    background-color: $main-color;
-                    color: $light-color;
+                    background-color: $sec-color;
+                    color: $main-color;
                     font-weight: bold;
                 }
             }

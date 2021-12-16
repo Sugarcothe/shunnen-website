@@ -2,13 +2,15 @@
 
     .main {
         background-color: $sec-color;
+        padding-top: 5rem;
         
     
         .header {
+            padding-top: 2rem;
             display: flex;
             justify-content: center;
             color: $main-color;
-            margin-top: 1rem;
+          
            
         }
         
@@ -20,9 +22,9 @@
             .left {
                
                 img {
-                    margin-top: 1rem;
+                    padding-top: 3rem;
                     margin-left: 2rem;
-                    max-width: 800px;
+                    max-width: 650px;
                     
                 }
                 // img:hover {
@@ -31,7 +33,7 @@
             }
             
             .right {
-                margin-top: 5rem;
+                margin-top: 7rem;
                 margin-bottom: 10rem;
                 background-color: $main-color;
         

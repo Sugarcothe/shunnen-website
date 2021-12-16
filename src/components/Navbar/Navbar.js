@@ -2,7 +2,8 @@ import React from 'react';
 import "../Navbar/Navbar.scss";
 import {
     title,
-    navbar
+    navbar,
+    imago
 } from '../Content'
 import { Link } from 'react-router-dom';
 
@@ -12,11 +13,11 @@ function Navbar() {
             <nav>
                 <Link to='/'>
                     <div className='logo'>
-                        {title}
+                        <img src={imago.img26} alt='Shunnen Home Ideas'/>
                     </div>
                 </Link>
                 <ul className='ulist'>
-                    <li className='list'><Link to='/About'>{navbar.nav1}</Link></li>
+                    {/* <li className='list'><Link to='/About'>{navbar.nav1}</Link></li> */}
                     <li className='list'><Link to='/Services'>{navbar.nav2}</Link></li>
                     <li className='list'><Link to='/Gallery'>{navbar.nav3}</Link></li>
                 </ul>

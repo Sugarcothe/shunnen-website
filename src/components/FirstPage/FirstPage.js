@@ -14,7 +14,6 @@ import {
     landingtext 
 } from '../Content' 
 import Testimonials from './Testimonials';
-import Rooter from './Footer';
 
 function FirstPage() {
     
@@ -71,7 +70,7 @@ function FirstPage() {
                 <img src={imago.img22} alt="this"/>
             </div>
             
-            <Rooter/>
+           
         </div>
     )
 }

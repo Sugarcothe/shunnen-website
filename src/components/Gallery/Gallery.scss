@@ -4,10 +4,11 @@ body {
 
     .gallery {
         background-color: $light-color;
+        padding: 5rem;
     
         .section {
-           padding: 3rem;
-
+           padding: 5rem;
+          
             .col {
                 display: flex;
                 flex-direction: row;
@@ -15,8 +16,8 @@ body {
                 justify-content: center;
 
                 img {
-                    max-width: 600px;
-                    height: auto;
+                    max-width: 300px;
+                    height: 100%;
                     margin: 0.41rem;
                     
                 }
