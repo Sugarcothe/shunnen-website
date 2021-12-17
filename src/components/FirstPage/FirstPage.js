@@ -27,11 +27,14 @@ function FirstPage() {
                     <h1>{header}</h1>
                 </div>
                 <div className='section'>
-                    <div className='youtube'>
+                    <div className='landingImage'>
+                        <img src={imago.img33} alt='imago'/>
+                    </div>
+                    {/* <div className='youtube'>
                         {yvideo.map((d) => (
                             <ClassesYoutube videoId={d.id} />
                         ))}
-                    </div>
+                    </div> */}
                     
                     <div className='right'>
                         <div className='firsttext'>

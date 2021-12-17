@@ -8,6 +8,7 @@ function Testimonials() {
         fade: true,
         infinite: true,
         autoplay: true,
+        arrows: false,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplaySpeed: 3500,
