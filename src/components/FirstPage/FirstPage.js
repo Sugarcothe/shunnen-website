@@ -9,7 +9,6 @@ import {
     header,
     navbar,
     imago,
-    landingimage, 
     landingtext 
 } from '../Content' 
 import Testimonials from './Testimonials';
@@ -30,8 +29,7 @@ function FirstPage() {
                 <div className='section'>
                     <div className='youtube'>
                         {yvideo.map((d) => (
-                            <ClassesYoutube videoId={d.id} /> 
-                        
+                            <ClassesYoutube videoId={d.id} />
                         ))}
                     </div>
                     

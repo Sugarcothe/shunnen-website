@@ -2,9 +2,16 @@ $main-color: rgb(18,33,59);
 $sec-color: rgb(180, 186, 197);
 $light-color: rgb(178,165,47);
 
-$width: 768px;
+$width: 800px;
+$smallwidth: 500px;
 
 @mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+};
+
+@mixin smallmobile {
     @media (max-width: #{$width}){
         @content
     }

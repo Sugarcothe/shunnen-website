@@ -5,9 +5,20 @@
     padding-bottom: 2rem;
     background-color: $main-color;
 
+    @include mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
     .section {
        display: flex;
        justify-content: space-evenly;
+
+       @include mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
 
         .col1 {
             display: flex;

@@ -3,88 +3,125 @@
     .main {
         background-color: $sec-color;
         padding-top: 5rem;
-        
+
+        .firstPage {
+
+            @include mobile {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+            }
+            .header {
+                padding-top: 1rem;
+                display: flex;
+                justify-content: center;
+                color: $main-color;
     
-        .header {
-            padding-top: 1rem;
-            display: flex;
-            justify-content: center;
-            color: $main-color;
-          
-           
-        }
-        
-        .section {
-            display: flex;
-            flex-direction: row;
-            
-        
-            .youtube {
-                margin-top: 3rem;
-                margin-left: 2rem;
+                @include mobile {
+                    flex-direction: column;
+                    align-items: center;
+                    font-size: 14px;
+                }
+              
                
-                // img {
-                //     padding-top: 3rem;
-                //     margin-left: 2rem;
-                //     max-width: 650px;
-                    
-                // }
-                // img:hover {
-                //     border-radius: 10px;
-                // }
             }
             
-            .right {
-                margin-top: 7rem;
-                margin-bottom: 10rem;
-                background-color: $main-color;
-        
-                .firsttext{
-                    margin: 2rem;
-                    justify-content: center;
+            .section {
+                display: flex;
+                flex-direction: row;
+    
+               @include mobile {
+                   display: flex;
+                   flex-direction: column;
+                   align-items: center;
+                   justify-content: center;
+               }
+            
+                .youtube {
+                    margin-top: 3rem;
+                    margin-left: 2rem;
+
+                    @include mobile {
+                        display: none;
+                    }
+                   
+                }
+                
+                .right {
+                    margin-top: 7rem;
+                    margin-bottom: 10rem;
                     background-color: $main-color;
-                    
-                    .big-text {
-                        font-family: 'Satisfy', cursive;
-                        margin-bottom: 1rem;
-                        font-size: 2.5rem;
+
+                    @include mobile {
+                        display: flex;
+                        justify-content: center;
+                        width: 100%;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                    }
+            
+                    .firsttext{
+                        margin: 2rem;
+                        justify-content: center;
+                        background-color: $main-color;
+                        
+                        .big-text {
+                            font-family: 'Satisfy', cursive;
+                            margin-bottom: 1rem;
+                            font-size: 2.5rem;
+                            color: $light-color;
+                            background-color: $main-color;
+                        }
+            
+                        .small-text {
+                            font-size: 1.5rem;
+                            justify-self: center;
+                            color: white;
+                            background-color: $main-color;
+                        }
+                        
+                    }
+                    .btn {
+                        padding: 10px 15px;
+                        background-color: $light-color;
+                        border: 0px;
+                        border-radius: 1rem;
+                        font-weight: bold;
+                        color: $main-color;
+                        transition: 1.2s;
+                        margin-top: 2rem;
+                    }
+                    .btn:hover {
                         color: $light-color;
                         background-color: $main-color;
+                        border: 2px $light-color solid;
                     }
-        
-                    .small-text {
-                        font-size: 1.5rem;
-                        justify-self: center;
-                        color: white;
-                        background-color: $main-color;
-                    }
-                    
-                }
-                .btn {
-                    padding: 10px 15px;
-                    background-color: $light-color;
-                    border: 0px;
-                    border-radius: 1rem;
-                    font-weight: bold;
-                    color: $main-color;
-                    transition: 1.2s;
-                    margin-top: 2rem;
-                }
-                .btn:hover {
-                    color: $light-color;
-                    background-color: $main-color;
-                    border: 2px $light-color solid;
                 }
             }
         }
+        
+    
+       
     
         .secondPage {
             padding: 2rem;
             background-color: $main-color;
+
+            @include mobile {
+                display: flex;
+                flex-direction: column;
+            }
     
             .section {
                 display: flex;
                 justify-content: center;
+
+                @include mobile {
+                    display: flex;
+                    flex-direction: column;
+                }
     
                 .col-1 {
                     border: solid 2px $light-color;
@@ -92,6 +129,11 @@
                     margin: 1rem;
                     justify-content: center;
                     align-items: center;
+
+                    @include mobile {
+                        padding: 1rem;
+                        margin: none;
+                    }
     
                     img {
                         max-width: 400px;
@@ -119,6 +161,10 @@
 
             img {
                 max-height: 290px;
+
+                @include mobile {
+                    display: none;
+                }
             }
         }
     }

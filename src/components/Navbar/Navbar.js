@@ -20,6 +20,7 @@ function Navbar() {
                     {/* <li className='list'><Link to='/About'>{navbar.nav1}</Link></li> */}
                     <li className='list'><Link to='/Services'>{navbar.nav2}</Link></li>
                     <li className='list'><Link to='/Gallery'>{navbar.nav3}</Link></li>
+                    <li className='list'><Link to='/Academy'>{navbar.nav5}</Link></li>
                 </ul>
                 <Link to="/Appointment">
                     <button

@@ -8,6 +8,10 @@
     top: 0;
     width: 100%;
 
+    @include mobile {
+        display: none;
+    }
+
     nav {
         display: flex;
         justify-content: space-around;

@@ -4,7 +4,8 @@ import Appointment from './components/Appointment/Appointment';
 import Gallery from './components/Gallery/Gallery';
 import Home from './components/FirstPage/FirstPage';
 import Services from './components/Services/Services';
-import Footer from './components/FirstPage/Footer'
+import Footer from './components/FirstPage/Footer';
+import Academy from './components/Acadmey/Academy';
 import {
   BrowserRouter as Router,
   Routes,
@@ -24,6 +25,7 @@ function App() {
                     <Route path="/Services" element={<Services/>}/>
                     <Route path="/Gallery" element={<Gallery/>}/>
                     <Route path="/Services" element={<Services/>}/>
+                    <Route path="/Academy" element={<Academy/>}/>
                 </Routes> 
             </div>
             <Footer/>
